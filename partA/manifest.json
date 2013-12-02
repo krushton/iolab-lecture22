@@ -1,0 +1,17 @@
+{
+    "name": "My Application",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Application description goes here",
+    "content_scripts": [{
+        "js": [
+               "jquery.min.js",
+               "script.js"
+              ],
+        "matches": [ 
+            /* on what sites should this file run? see https://developer.chrome.com/extensions/match_patterns.html */
+        ]
+    }]
+}
+
+

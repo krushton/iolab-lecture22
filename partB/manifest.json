@@ -1,0 +1,17 @@
+{
+    "name": "My Application",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Application description goes here",
+    "background": {
+        "script": [
+            "jquery.min.js",
+            "script.js"
+         ]
+      },
+	"permissions": [ 
+        /* what permissions are necessary? see gifcubby example /*
+    ]
+}
+
+

@@ -1,0 +1,23 @@
+{
+    "name": "My Application",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Application description goes here",
+    "icons": { 
+        "16": "icon-bitty.png",
+        "48": "icon-small.png",
+        "128": "icon-large.png"  },
+    "content_scripts": [{
+        "js": [
+               "jquery.min.js",
+               "script.js"
+              ],
+        "matches": [ 
+        ]
+    }],
+    "permissions": [ 
+        "http://gifcubby/*"
+    ]
+}
+
+
