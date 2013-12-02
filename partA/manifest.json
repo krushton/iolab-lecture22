@@ -1,15 +1,16 @@
 {
-    "name": "My Application",
+    "name": "Facebook Shiba Replacer",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "Application description goes here",
+    "description": "Such lol",
     "content_scripts": [{
         "js": [
                "jquery.min.js",
                "script.js"
               ],
         "matches": [ 
-            /* on what sites should this file run? see https://developer.chrome.com/extensions/match_patterns.html */
+            "https://www.facebook.com/*",
+            "http://www.facebook.com/*"
         ]
     }]
 }
