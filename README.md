@@ -4,12 +4,15 @@ For this lab you will build two Chrome extensions.
 * <b>Part A:</b> An extension that uses content scripts to modify the content of a web page in some way.
 * <b>Part B:</b> An extension that enables users to quickly look up information on Wikipedia. This extension should add a new right-click menu option that appears when the user highlights some text (similar to the "Search on Google" option that appears now). When they select this option, the extension should launch a new tab in Chrome and load the matching wikipedia page.
 
+### Helpful Links
+* Chrome Extension samples, http://developer.chrome.com/extensions/samples.html
+
 ### Building the Extension(s)
 <ol>
 <li>Copy the files in this repository to your computer. Note that the 'googlebig' and 'gifcubby' examples are only included for your reference.</li>
 <li>For both Part A and B:
 <ul>
-    <li>Finish the <code>manifest.json</code> file for each extension.</li>
+    <li>Finish the <code>manifest.json</code> file for the extension.</li>
     <li>Edit <code>script.js</code>. Further instructions are inside this file.</li>
 </ul></li>
 <li>When you are ready to test your extension, add it to Chrome with these steps:

@@ -10,7 +10,7 @@
          ]
       },
 	"permissions": [ 
-        /* what permissions are necessary? see gifcubby example /*
+        /* what permissions are necessary? see http://developer.chrome.com/extensions/permission_warnings.html  /*
     ]
 }
 
