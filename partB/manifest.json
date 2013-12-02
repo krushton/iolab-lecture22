@@ -4,7 +4,7 @@
     "manifest_version": 2,
     "description": "Application description goes here",
     "background": {
-        "script": [
+        "scripts": [
             "jquery.min.js",
             "script.js"
          ]
